@@ -10,7 +10,7 @@ Plugin 'gmarik/Vundle.vim'
 
 Plugin 'Shougo/unite.vim'
 Plugin 'Shougo/vimproc.vim'
-" Plugin 'Shougo/vimshell.vim'
+Plugin 'Shougo/vimshell.vim'
 Plugin 'Shougo/neocomplete.vim'
 Plugin 'Shougo/neosnippet'
 
@@ -43,6 +43,22 @@ Plugin 'gregsexton/gitv'
 Plugin 'elixir-lang/vim-elixir'
 Plugin 'christoomey/vim-tmux-navigator'
 Plugin 'fatih/vim-go'
+
+Bundle 'mileszs/ack.vim'
+Bundle 'elzr/vim-json'
+
+Bundle 'vim-scripts/grep.vim'
+Bundle 'tpope/vim-haml'
+Bundle 'nikvdp/ejs-syntax'
+Bundle 'rhysd/vim-crystal'
+Bundle 'solarnz/thrift.vim'
+Bundle 'derekwyatt/vim-scala'
+Bundle 'othree/html5.vim'
+Bundle 'hail2u/vim-css3-syntax'
+Bundle 'edsono/vim-matchit'
+Bundle 'kchmck/vim-coffee-script'
+Bundle 'moll/vim-node'
+Bundle 'juvenn/mustache.vim'
 call vundle#end()
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
@@ -258,3 +274,15 @@ else
   highlight SignifySignChange cterm=bold ctermbg=NONE ctermfg=227
 endif
 highlight clear SignColumn
+
+set dir=~/.vim/backup/
+let g:rsenseHome = "/usr/lib/rsense-0.3"
+let g:rsenseUseOmniFunc = 1
+let g:ackprg="ack-grep -H --nocolor --nogroup --column"
+
+map <F8> :NERDTreeToggle<CR>
+map <F7> :BufExplorer<CR>
+noremap <silent>be :BufExplorer<CR>
+noremap <silent>nf :NERDTreeFind<CR>
+noremap <silent>nt :NERDTree<CR>
+noremap <silent>gb :Gblame<CR>
