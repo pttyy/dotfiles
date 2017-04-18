@@ -279,6 +279,7 @@ set dir=~/.vim/backup/
 let g:rsenseHome = "/usr/lib/rsense-0.3"
 let g:rsenseUseOmniFunc = 1
 let g:ackprg="ack-grep -H --nocolor --nogroup --column"
+let NERDTreeShowHidden=1
 
 map <F8> :NERDTreeToggle<CR>
 map <F7> :BufExplorer<CR>
@@ -286,3 +287,4 @@ noremap <silent>be :BufExplorer<CR>
 noremap <silent>nf :NERDTreeFind<CR>
 noremap <silent>nt :NERDTree<CR>
 noremap <silent>gb :Gblame<CR>
+
