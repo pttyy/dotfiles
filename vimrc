@@ -21,6 +21,7 @@ Plugin 'tpope/vim-bundler'
 Plugin 'tpope/vim-markdown'
 Plugin 'tpope/vim-surround'
 Plugin 'tpope/vim-repeat'
+Plugin 'corntrace/bufexplorer'
 " Plugin 'tpope/vim-vividchalk'
 
 Plugin 'vim-ruby/vim-ruby'
