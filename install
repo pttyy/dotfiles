@@ -2,11 +2,11 @@
 
 if [ ! -d "$HOME/.dotfiles" ]; then
     echo "===================================================================="
-    echo "Welcome to luonet's vim and other dotfiles installation."
+    echo "Welcome to gialib's vim and other dotfiles installation."
     echo "===================================================================="
     echo ""
 
-    git clone https://github.com/luonet/dotfiles.git "$HOME/.dotfiles"
+    git clone https://github.com/gialib/dotfiles.git "$HOME/.dotfiles"
     cd "$HOME/.dotfiles"
     if [ "$1" ]; then
       rake install_$1

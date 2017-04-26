@@ -77,7 +77,7 @@ def install_file(file)
     run %(ln -nfs "#{source}" "#{target}")
   end
 
-  install_git_user_file if file == 'gitconfig'
+  ### install_git_user_file if file == 'gitconfig'
 end
 
 # The user specific git configurations such as name and email should be stored
@@ -88,8 +88,8 @@ def install_git_user_file
   unless File.file?(GIT_USER_FILE)
     File.write GIT_USER_FILE, <<-GIT_USER_FILE
 [user]
-	email = luoxin.net@gmail.com
-	name = Luo Xin
+	email = xxxx@helloworld.com
+	name = Your Name
     GIT_USER_FILE
   end
 

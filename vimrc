@@ -22,6 +22,7 @@ Plugin 'tpope/vim-markdown'
 Plugin 'tpope/vim-surround'
 Plugin 'tpope/vim-repeat'
 Plugin 'corntrace/bufexplorer'
+Bundle 'Command-T'
 " Plugin 'tpope/vim-vividchalk'
 
 Plugin 'vim-ruby/vim-ruby'
@@ -287,4 +288,3 @@ noremap <silent>be :BufExplorer<CR>
 noremap <silent>nf :NERDTreeFind<CR>
 noremap <silent>nt :NERDTree<CR>
 noremap <silent>gb :Gblame<CR>
-
