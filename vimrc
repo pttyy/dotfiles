@@ -70,7 +70,7 @@ filetype plugin indent on
 compiler ruby
 scriptencoding utf-8
 
-set autoindent
+" set autoindent
 set hlsearch
 set incsearch
 set number
