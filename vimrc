@@ -23,6 +23,7 @@ Plugin 'tpope/vim-markdown'
 Plugin 'tpope/vim-surround'
 Plugin 'tpope/vim-repeat'
 Plugin 'corntrace/bufexplorer'
+Bundle 'Command-T'
 " Plugin 'tpope/vim-vividchalk'
 
 Plugin 'vim-ruby/vim-ruby'
@@ -70,7 +71,7 @@ filetype plugin indent on
 compiler ruby
 scriptencoding utf-8
 
-set autoindent
+" set autoindent
 set hlsearch
 set incsearch
 set number
@@ -82,7 +83,7 @@ set diffopt+=vertical
 set tabstop=2 shiftwidth=2 softtabstop=2
 set list listchars=tab:»·,trail:·,nbsp:·
 match Error /\t/
-2match Error / /
+match Error / /
 set laststatus=2
 set wildmenu
 set wildmode=list:longest,list:full
@@ -288,4 +289,3 @@ noremap <silent>be :BufExplorer<CR>
 noremap <silent>nf :NERDTreeFind<CR>
 noremap <silent>nt :NERDTree<CR>
 noremap <silent>gb :Gblame<CR>
-

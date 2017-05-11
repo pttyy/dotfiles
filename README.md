@@ -2,7 +2,7 @@
 
 此文档刚刚创建，目前极不完善，马上会修改出一个更好的版本，敬请关注。
 
-[English](https://github.com/luonet/dotfiles/blob/master/README.en.md)
+[English](https://github.com/gialib/dotfiles/blob/master/README.en.md)
 
 # 说明
 
@@ -15,7 +15,7 @@
 ### 自动安装
 
 ```sh
-sh -c "`curl -fsSL https://raw.githubusercontent.com/luonet/dotfiles/master/install`"
+sh -c "`curl -fsSL https://raw.githubusercontent.com/gialib/dotfiles/master/install`"
 ```
 
 第一次安装时，会更新包管理程序，安装vim主程序，更新vim插件等，耗费的时间可能较长，请耐心等待。
@@ -25,7 +25,7 @@ sh -c "`curl -fsSL https://raw.githubusercontent.com/luonet/dotfiles/master/inst
 * clone项目：
 
   ```sh
-  git clone https://github.com/luonet/dotfiles.git ~/.dotfiles
+  git clone https://github.com/gialib/dotfiles.git ~/.dotfiles
   cd ~/.dotfiles
   ```
 

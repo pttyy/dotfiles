@@ -1,6 +1,6 @@
 # Guildance
 
-luonet's vim and other dotfiles, partially referenced [YARD](https://github.com/skwp/dotfiles).
+gialib's vim and other dotfiles, partially referenced [YARD](https://github.com/skwp/dotfiles).
 
 ## Install Vim dotfile
 
@@ -9,7 +9,7 @@ Both automatic installation and manual installation are available.
 ### Automatic Installation
 
 ```sh
-sh -c "`curl -fsSL https://raw.githubusercontent.com/luonet/dotfiles/master/install`"
+sh -c "`curl -fsSL https://raw.githubusercontent.com/gialib/dotfiles/master/install`"
 ```
 
 It might take a long time for the first time installation because under the hood it will:
@@ -23,7 +23,7 @@ It might take a long time for the first time installation because under the hood
 * clone the project
 
   ```sh
-  git clone https://github.com/luonet/dotfiles.git ~/.dotfiles
+  git clone https://github.com/gialib/dotfiles.git ~/.dotfiles
   cd ~/.dotfiles
   ```
 
